@@ -6,10 +6,10 @@ import 'movie.dart';
 
 class HttpHelper {
   final String urlKey = 'api_key=be3842901d918b1ac508feff96a5d145';
-  final String urlBase = 'https://api.themoviedb.org/3/movie';
+  final String urlBase = 'http://api.themoviedb.org/3/movie';
   final String urlTopRated = '/top_rated?';
   final String urlLanguage = '&language=en-US';
-  final String urlSearchBase = 'https://api.themoviedb.org/3/search/movie?api_key=be3842901d918b1ac508feff96a5d145&query=';
+  final String urlSearchBase = 'http://api.themoviedb.org/3/search/movie?api_key=be3842901d918b1ac508feff96a5d145&query=';
 
 
   Future<List> findMovies(String title) async {

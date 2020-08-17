@@ -10,8 +10,8 @@ class MovieList extends StatefulWidget {
 }
 
 class _MovieListState extends State<MovieList> {
-  final String iconBase = 'https://image.tmdb.org/t/p/w92/';
-  final String defaultImage = 'https://images.freeimages.com/images/large-previews/5eb/movie-clapboard-1184339.jpg';
+  final String iconBase = 'http://image.tmdb.org/t/p/w92/';
+  final String defaultImage = 'http://images.freeimages.com/images/large-previews/5eb/movie-clapboard-1184339.jpg';
 
   String result;
   HttpHelper helper;

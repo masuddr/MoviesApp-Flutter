@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'movie.dart';
 
 class MovieDetail extends StatelessWidget {
-  final String imgPath='https://image.tmdb.org/t/p/w500/';
+  final String imgPath='http://image.tmdb.org/t/p/w500/';
 
   final Movie movie;
 
@@ -15,7 +15,7 @@ class MovieDetail extends StatelessWidget {
       path= imgPath + movie.posterPath;
     }
     else {
-      path = 'https://images.freeimages.com/images/large-previews/5eb/movie-clapboard-1184339.jpg';
+      path = 'http://images.freeimages.com/images/large-previews/5eb/movie-clapboard-1184339.jpg';
     }
     double height = MediaQuery.of(context).size.height;
     return Scaffold(
